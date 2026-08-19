@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2022"],
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    
+    
+    "rootDir": "./src",
+    "ignoreDeprecations": "6.0",
+    
+    "baseUrl": ".",
+    "paths": {
+      "@repo/types": ["../../packages/shared-types/index.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}
